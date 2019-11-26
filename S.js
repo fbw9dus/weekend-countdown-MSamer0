@@ -10,7 +10,7 @@ var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
 btn.addEventListener("click",weekend)
 
 function weekend(){
-    ch.innerHTML = "Hallo " + input.value + ". "+ " Today is " + days[day]+ "!." + " There is only " + (5 - day) + " Day to the Weekend"
+    ch.innerHTML = "Hello " + input.value + ". "+ " Today is " + days[day]+ "!." + " There is only " + (5 - day) + " Day to the Weekend"
     btn.style.display = "none"
     input.style.display = "none"
 }
